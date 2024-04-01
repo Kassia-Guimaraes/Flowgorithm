@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 3.5.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1675" height="2400">
+	<rect x="0" y="0" width="1675" height="2400" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,200 475,350"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,1450 475,2186"/>
+		<polygon fill="#404040" stroke="none" points="475,2200 488,2175 461,2175"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 275,100 A 50 50, 0, 0 0, 275 200 L 675,200 A 50 50, 0, 0 0, 675 100 Z"/>
+			<text x="475" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="475" dy="50" unicode-bidi="embed">numberPlaneFunc</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 200,2200 A 50 50, 0, 0 0, 200 2300 L 750,2300 A 50 50, 0, 0 0, 750 2200 Z"/>
+			<text x="475" y="2215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="475" dy="50" unicode-bidi="embed">Return String numberPlane</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,350 475,486"/>
+			<polygon fill="#404040" stroke="none" points="475,500 488,475 461,475"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,625 475,686"/>
+			<polygon fill="#404040" stroke="none" points="475,700 488,675 461,675"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,850 475,911"/>
+			<polygon fill="#404040" stroke="none" points="475,925 488,900 461,900"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,1025 475,1175"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,1175 475,1336"/>
+			<polygon fill="#404040" stroke="none" points="475,1350 488,1325 461,1325"/>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="475,350 600,350"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 600,275 L 600,425 L 1250,425 L 1250,275 Z"/>
+					<text x="925" y="290" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="925" dy="50" unicode-bidi="embed">Fun&#231;&#227;o com condicional para</tspan>
+						<tspan x="925" dy="50" unicode-bidi="embed"> declara&#231;&#227;o do n&#250;mero do voo</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 225,500 L 225,625 L 725,625 L 725,500 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="225,525 725,525"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="250,500 250,625"/>
+				<text x="487" y="540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="487" dy="50" unicode-bidi="embed">String numberPlane</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 175,700 L 100,850 L 775,850 L 850,700 Z"/>
+				<text x="475" y="715" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="475" dy="50" unicode-bidi="embed">Output &quot;Qual o n&#250;mero do</tspan>
+					<tspan x="475" dy="50" unicode-bidi="embed"> voo? (ex: 14E26)&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 250,925 L 200,1025 L 700,1025 L 750,925 Z"/>
+				<text x="475" y="940" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="475" dy="50" unicode-bidi="embed">Input numberPlane</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="475,1175 600,1175"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 600,1100 L 600,1250 L 1400,1250 L 1400,1100 Z"/>
+					<text x="1000" y="1115" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1000" dy="50" unicode-bidi="embed">pr&#233;-difini&#231;&#227;o do n&#250;mero de caracteres</tspan>
+						<tspan x="1000" dy="50" unicode-bidi="embed"> para o n&#250;mero do voo</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="775,1400 1100,1400 1100,1486"/>
+				<polygon fill="#404040" stroke="none" points="1100,1500 1113,1475 1086,1475"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1100,2025 1100,2100 525,2100 525,1463"/>
+				<polygon fill="#404040" stroke="none" points="525,1450 511,1474 538,1474"/>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1100,1850 1100,1911"/>
+					<polygon fill="#404040" stroke="none" points="1100,1925 1113,1900 1086,1900"/>
+					<g>
+						<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 800,1500 L 625,1850 L 1400,1850 L 1575,1500 Z"/>
+						<text x="1100" y="1515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1100" dy="50" unicode-bidi="embed">Output &quot;N&#250;mero de voo</tspan>
+							<tspan x="1100" dy="50" unicode-bidi="embed"> inv&#225;lido, o n&#250;mero do voo</tspan>
+							<tspan x="1100" dy="50" unicode-bidi="embed"> deve conter 5 caracteres.</tspan>
+							<tspan x="1100" dy="50" unicode-bidi="embed"> Por favor digite novamente</tspan>
+							<tspan x="1100" dy="50" unicode-bidi="embed"> o n&#250;mero do voo</tspan>
+							<tspan x="1100" dy="50" unicode-bidi="embed"> (ex: 14E26)&quot;</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 875,1925 L 825,2025 L 1325,2025 L 1375,1925 Z"/>
+						<text x="1100" y="1940" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1100" dy="50" unicode-bidi="embed">Input numberPlane</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 225,1350 L 175,1400 L 225,1450 L 725,1450 L 775,1400 L 725,1350 Z"/>
+					<text x="475" y="1365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="475" dy="50" unicode-bidi="embed">len(numberPlane) != 5</tspan>
+					</text>
+				</g>
+				<text x="850" y="1315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="850" dy="50" unicode-bidi="embed">True</tspan>
+				</text>
+				<text x="387" y="1465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="387" dy="50" unicode-bidi="embed">False</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

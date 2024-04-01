@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 3.5.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="2775" height="2825">
+	<rect x="0" y="0" width="2775" height="2825" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="500,250 500,425"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="500,1125 500,2611"/>
+		<polygon fill="#404040" stroke="none" points="500,2625 513,2600 486,2600"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 175,100 A 75 75, 0, 0 0, 175 250 L 825,250 A 75 75, 0, 0 0, 825 100 Z"/>
+			<text x="500" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="500" dy="50" unicode-bidi="embed">numberofintances</tspan>
+				<tspan x="500" dy="50" unicode-bidi="embed">(String hourPlane, String splitOn)</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 325,2625 A 50 50, 0, 0 0, 325 2725 L 675,2725 A 50 50, 0, 0 0, 675 2625 Z"/>
+			<text x="500" y="2640" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="500" dy="50" unicode-bidi="embed">Return Integer qty</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="500,425 500,586"/>
+			<polygon fill="#404040" stroke="none" points="500,600 513,575 486,575"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="500,725 500,786"/>
+			<polygon fill="#404040" stroke="none" points="500,800 513,775 486,775"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="500,900 500,961"/>
+			<polygon fill="#404040" stroke="none" points="500,975 513,950 486,950"/>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="500,425 625,425"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 625,325 L 625,525 L 1425,525 L 1425,325 Z"/>
+					<text x="1025" y="340" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1025" dy="50" unicode-bidi="embed">n&#250;mero de vezes que a fun&#231;&#227;o split</tspan>
+						<tspan x="1025" dy="50" unicode-bidi="embed"> deve rodar para conseguir seprar a</tspan>
+						<tspan x="1025" dy="50" unicode-bidi="embed"> hora, sendo a condi&#231;&#227;o para o split &quot;:&quot;</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 275,600 L 275,725 L 725,725 L 725,600 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="275,625 725,625"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="300,600 300,725"/>
+				<text x="512" y="640" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="512" dy="50" unicode-bidi="embed">Integer count, qty</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 350,800 L 350,900 L 650,900 L 650,800 Z"/>
+				<text x="500" y="815" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="500" dy="50" unicode-bidi="embed">qty = 1</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,1050 1250,1050 1250,1300"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1250,2450 1250,2525 550,2525 550,1138"/>
+				<polygon fill="#404040" stroke="none" points="550,1125 536,1149 563,1149"/>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1250,1300 1250,1486"/>
+					<polygon fill="#404040" stroke="none" points="1250,1500 1263,1475 1236,1475"/>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="1250,1300 1375,1300"/>
+						<g>
+							<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 1375,1175 L 1375,1425 L 2175,1425 L 2175,1175 Z"/>
+							<text x="1775" y="1190" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1775" dy="50" unicode-bidi="embed">enquanto a vari&#225;vel alocada posi&#231;&#227;o</tspan>
+								<tspan x="1775" dy="50" unicode-bidi="embed"> da hora do voo for diferente da</tspan>
+								<tspan x="1775" dy="50" unicode-bidi="embed"> condi&#231;&#227;o do split (:), deve separar os</tspan>
+								<tspan x="1775" dy="50" unicode-bidi="embed"> elementos, entre xx:yy</tspan>
+							</text>
+						</g>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1625,1700 1800,1700 1800,2050"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1800,2325 1800,2425 1288,2425"/>
+						<polygon fill="#404040" stroke="none" points="1275,2425 1299,2438 1299,2411"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,1700 675,1700 675,2425 1211,2425"/>
+						<polygon fill="#404040" stroke="none" points="1225,2425 1200,2411 1200,2438"/>
+						<g>
+							<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 1250,1500 L 850,1700 L 1250,1900 L 1650,1700 Z"/>
+							<text x="1250" y="1640" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1250" dy="50" unicode-bidi="embed">Char(hourPlane, count) ==</tspan>
+								<tspan x="1250" dy="50" unicode-bidi="embed"> splitOn</tspan>
+							</text>
+						</g>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1800,2050 1800,2211"/>
+							<polygon fill="#404040" stroke="none" points="1800,2225 1813,2200 1786,2200"/>
+							<g>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="1800,2050 1925,2050"/>
+								<g>
+									<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 1925,1950 L 1925,2150 L 2675,2150 L 2675,1950 Z"/>
+									<text x="2300" y="1965" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="2300" dy="50" unicode-bidi="embed">quando chega na posi&#231;&#227;o em que o</tspan>
+										<tspan x="2300" dy="50" unicode-bidi="embed"> split (:) &#233; declarado, faz a soma da</tspan>
+										<tspan x="2300" dy="50" unicode-bidi="embed"> contagem das instancias</tspan>
+									</text>
+								</g>
+							</g>
+							<g>
+								<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 1650,2225 L 1650,2325 L 1950,2325 L 1950,2225 Z"/>
+								<text x="1800" y="2240" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1800" dy="50" unicode-bidi="embed">qty = qty +1</tspan>
+								</text>
+							</g>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="1250" cy="2425" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+						<text x="1725" y="1615" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1725" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="762" y="1615" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="762" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 325,975 L 250,1050 L 325,1125 L 675,1125 L 750,1050 L 675,975 Z"/>
+					<text x="500" y="990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="500" dy="50" unicode-bidi="embed">count = 0 to len</tspan>
+						<tspan x="500" dy="50" unicode-bidi="embed">(hourPlane)-1</tspan>
+					</text>
+				</g>
+				<text x="825" y="965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="825" dy="50" unicode-bidi="embed">Next</tspan>
+				</text>
+				<text x="412" y="1140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">Done</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

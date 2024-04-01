@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-26 11:46:50 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI2OyIxMTozNDozMSAiOzI1MjI="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI2OyIxMTo0MzozNCAiOzY7a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwNDo0NzozMSAiO3F1ZXN0NC1hLmZwcmc7NjUxNg=="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI2OyIxMTo0Njo1MCAiOzI7MjYzNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tempC, tempF" type="Real" array="False" size=""/>
+            <declare name="exit" type="String" array="False" size=""/>
+            <output expression="&quot;Para descobrir quantos graus est&#225; em Fahrenheit digite a escala em Celsius (ex: 35,5)&quot;" newline="True"/>
+            <input variable="tempC"/>
+            <assign variable="tempF" expression="((9/5)*tempC)+32"/>
+            <output expression="&quot;A temperatura de &quot; &amp; tempC &amp; &quot; &#186;C equivale &#224; &quot; &amp; tempF &amp; &quot; &#186;F&quot;" newline="True"/>
+            <output expression="&quot;Deseja fazer mais convers&#245;es? S/N&quot;" newline="True"/>
+            <input variable="exit"/>
+            <while expression="exit = &quot;s&quot;">
+                <output expression="&quot;Para descobrir quantos graus est&#225; em Fahrenheit digite a escala em Celsius (ex: 35,5)&quot;" newline="True"/>
+                <input variable="tempC"/>
+                <assign variable="tempF" expression="((9/5)*tempC)+32"/>
+                <output expression="&quot;A temperatura de &quot; &amp; tempC &amp; &quot; &#186;C equivale &#224; &quot; &amp; tempF &amp; &quot; &#186;F&quot;" newline="True"/>
+                <output expression="&quot;Deseja fazer mais convers&#245;es? S/N&quot;" newline="True"/>
+                <input variable="exit"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

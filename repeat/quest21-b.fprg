@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 04:58:22 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTA5OyIwNDo0ODo1NCAiOzI1Mjc="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTA5OyIwNDo1ODoyMiAiOzI7MjYzMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="count, total" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="0"/>
+            <assign variable="total" expression="0"/>
+            <while expression="count &lt;= 10">
+                <assign variable="total" expression="total + 2"/>
+                <assign variable="count" expression="count + 1"/>
+                <output expression="&quot;o total do contador &#233; &quot; &amp; count &amp; &quot; e o valor total &#233; &quot; &amp; total" newline="True"/>
+            </while>
+            <output expression="&quot;o programa foi finalizado.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

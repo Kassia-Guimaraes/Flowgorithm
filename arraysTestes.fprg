@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-16 03:36:20 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE2OyIwMzoxMjo1OCAiOzI1MTk="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE2OyIwMzozNjoyMCAiOzE7MjYyMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, d" type="Integer" array="False" size=""/>
+            <declare name="S" type="String" array="False" size=""/>
+            <output expression="&quot; value N&quot;" newline="True"/>
+            <input variable="N"/>
+            <output expression="&quot; value d&quot;" newline="True"/>
+            <input variable="d"/>
+            <declare name="A" type="Integer" array="True" size="N*N"/>
+            <call expression="InitMatrixl(A,N,N,0)"/>
+            <output expression="&quot;==== START ====&quot;" newline="True"/>
+            <call expression="GenerateSnailShapeMatrix(A,N)"/>
+            <call expression="PrintMatrixl(A,N,N,d)"/>
+            <output expression="&quot;==== END ====&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="PrintMatrixl" type="None" variable="">
+        <parameters>
+            <parameter name="A" type="Integer" array="True"/>
+            <parameter name="N" type="Integer" array="False"/>
+            <parameter name="M" type="Integer" array="False"/>
+            <parameter name="D" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Array A, N, M, D" type="Integer" array="False" size=""/>
+            <declare name="i, j, k" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="N" direction="inc" step="1">
+                <for variable="j" start="1" end="M" direction="inc" step="1">
+                    <assign variable="k" expression="A[index(i, j, N, M)]"/>
+                    <output expression="IntToString(k,D)" newline="True"/>
+                </for>
+                <output expression="ToChar(13)" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

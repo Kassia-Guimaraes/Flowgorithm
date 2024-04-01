@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-17 06:06:48 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTExLTA1OyIwNjozODo0MiAiOzI1MjI="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTExLTA1OyIwNjo1MjoxMyAiOzI7a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE1OyIwNjozNzozMCAiO2RheVBsYW5lLmZwcmc7NjU1Mg=="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTExLTA1OyIwNjo1MzoyOCAiOzI7a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE5OyIwNzo0NjowMSAiO3RpbWVQbGFuZS5mcHJnOzY2NzU="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTExLTE3OyIwNjowNjo0OCAiOzE4OzI2OTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="password" type="String" array="False" size=""/>
+            <output expression="&quot;Para come&#231;armos, digite sua password&quot;" newline="True"/>
+            <input variable="password"/>
+            <declare name="capacityRoom" type="Integer" array="False" size=""/>
+            <assign variable="capacityRoom" expression="10"/>
+            <comment text="password fict&#237;cia para identifica&#231;&#227;o de funcion&#225;rio no Menu"/>
+            <if expression="password == &quot;employee123&quot;">
+                <then>
+                    <comment text="&#193;rea do funcion&#225;rio"/>
+                    <output expression="&quot;Bem-vindo a &#225;rea do funcion&#225;rio.&quot;" newline="True"/>
+                    <declare name="lines, i" type="Integer" array="False" size=""/>
+                    <output expression="&quot;Quantas aeronoves t&#234;m no dia?&quot;" newline="True"/>
+                    <input variable="lines"/>
+                    <declare name="airPlanes" type="String" array="True" size="lines"/>
+                    <for variable="i" start="0" end="lines - 1" direction="inc" step="1">
+                        <comment text="Repeti&#231;&#227;o para aloca&#231;&#227;o de informa&#231;&#245;es de voo em cada linha do Array"/>
+                        <assign variable="airPlanes[i]" expression="infoPlanes()"/>
+                    </for>
+                    <output expression="&quot;As aeronaves do dia s&#227;o:&quot;" newline="True"/>
+                    <for variable="i" start="0" end="lines-1" direction="inc" step="1">
+                        <comment text="Output de todas as aeronaves do dia"/>
+                        <output expression="airPlanes[i]" newline="True"/>
+                    </for>
+                </then>
+                <else>
+                    <comment text="&#193;rea do passageiro"/>
+                    <output expression="&quot;Bem-vindo(a) a &#225;rea do passageiro.&quot;" newline="True"/>
+                    <declare name="namePassenger, identPassenger, hourPlane, numberPlane" type="String" array="False" size=""/>
+                    <comment text="contador para rodar o for"/>
+                    <declare name="i" type="Integer" array="False" size=""/>
+                    <declare name="counter" type="Integer" array="False" size=""/>
+                    <assign variable="counter" expression="0"/>
+                    <for variable="i" start="0" end="capacityRoom-1" direction="inc" step="1">
+                        <declare name="checkin" type="Integer" array="False" size=""/>
+                        <output expression="&quot;Deseja realizar check-in?&quot; &amp; ToChar(13) &amp; &quot;1 -&gt; Sim&quot; &amp; ToChar(13) &amp; &quot;2 -&gt; N&#227;o&quot;" newline="True"/>
+                        <input variable="checkin"/>
+                        <if expression="checkin == 1">
+                            <then>
+                                <comment text="declara&#231;&#227;o de vari&#225;veis com fun&#231;&#245;es para imputs da identifica&#231;&#227;o do passageiro, contendo condi&#231;&#245;es condi&#231;&#245;es"/>
+                                <assign variable="namePassenger" expression="namePassengerFunc()"/>
+                                <assign variable="identPassenger" expression="passaportNumberFunc()"/>
+                                <assign variable="hourPlane" expression="timePlaneFunc()"/>
+                                <assign variable="numberPlane" expression="numberPlaneFunc()"/>
+                                <comment text="Separa&#231;&#227;o da hora e minuto"/>
+                                <declare name="hour, minute" type="Integer" array="False" size=""/>
+                                <assign variable="hour" expression="splitHourPlane(hourPlane)"/>
+                                <assign variable="minute" expression="splitMinPlane(hourPlane)"/>
+                                <call expression="hourMin(namePassenger, hour, minute)"/>
+                                <call expression="hourMax(namePassenger, hour, minute)"/>
+                                <output expression="&quot;Para passar pela seguran&#231;a deve ter em m&#227;os o seu passaporte, como documento de identifica&#231;&#227;o e o n&#250;mero do voo. Fa&#231;a uma boa viagem e at&#233; a pr&#243;xima!&quot;" newline="True"/>
+                                <assign variable="counter" expression="counter +1"/>
+                            </then>
+                            <else>
+                                <assign variable="i" expression="capacityRoom-1"/>
+                            </else>
+                        </if>
+                    </for>
+                    <declare name="percentCapacity" type="Real" array="False" size=""/>
+                    <assign variable="percentCapacity" expression="(counter*100)/capacityRoom"/>
+                    <output expression="counter &amp; &quot; pessoas realizaram o check-in na fila, do total de &quot; &amp; capacityRoom &amp; &quot;. A capacidade do sal&#227;o de espera est&#225; em cerca de &quot; &amp; percentCapacity &amp; &quot;% de passageiros realizou check-in&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="hourMax" type="None" variable="hourMaximum">
+        <parameters>
+            <parameter name="namePassenger" type="String" array="False"/>
+            <parameter name="hour" type="Integer" array="False"/>
+            <parameter name="minute" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <comment text="Defini&#231;&#227;o da hora m&#225;xima para passageiro ir para a fila da seguran&#231;a"/>
+            <declare name="hourMaximum" type="Real" array="False" size=""/>
+            <declare name="valueMinute, valueHour" type="Integer" array="False" size=""/>
+            <comment text="Hora m&#237;nima definida sendo 30 minutos antes do hor&#225;rio do voo"/>
+            <if expression="minute &lt; 30">
+                <then>
+                    <if expression="hour &lt; 1">
+                        <then>
+                            <assign variable="hour" expression="24"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <assign variable="hourMaximum" expression="hour - 1"/>
+                    <assign variable="valueMinute" expression="30 + minute"/>
+                    <output expression="&quot;A hora m&#225;xima que deve se apresentar para a seguran&#231;a &#233; &#224;s &quot;&amp; Abs(hourMaximum) &amp; &quot;:&quot; &amp; valueMinute" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="valueMinute" expression="minute - 30"/>
+                    <output expression="&quot;A hora m&#225;xima que deve se apresentar para a seguran&#231;a &#233; &#224;s &quot;&amp; hour &amp; &quot;:&quot; &amp; valueMinute" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="hourMin" type="None" variable="hourMinimum">
+        <parameters>
+            <parameter name="namePassenger" type="String" array="False"/>
+            <parameter name="hour" type="Integer" array="False"/>
+            <parameter name="minute" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <comment text="Defini&#231;&#227;o da hora m&#237;nima para passageiro ir para a fila da seguran&#231;a. Definida como 2 horas antes do hor&#225;rio do voo"/>
+            <if expression="hour == 00 or hour == 0">
+                <then>
+                    <assign variable="hour" expression="24"/>
+                </then>
+                <else>
+                    <if expression="hour == 01 or hour == 1">
+                        <then>
+                            <assign variable="hour" expression="25"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <if expression="minute &lt; 30">
+                <then>
+                    <output expression="&quot;Pode se apresentar na fila para a seguran&#231;a a partir das &quot;&amp; (hour-2) &amp; &quot;:00&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Pode se apresentar na fila para a seguran&#231;a a partir das &quot;&amp; (hour-2) &amp; &quot;:30&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="infoPlanes" type="String" variable="infoFlight">
+        <parameters/>
+        <body>
+            <comment text="Informa&#231;&#245;es do voo do dia no aeroporto, n&#250;mero de aeronaves pr&#233;-definida pelo funcion&#225;rio"/>
+            <declare name="hourPlane" type="String" array="False" size=""/>
+            <declare name="informationPlane" type="String" array="True" size="4"/>
+            <output expression="&quot;Qual a companhia a&#233;rea do voo?&quot;" newline="True"/>
+            <input variable="informationPlane[0]"/>
+            <output expression="&quot;Qual o destino do voo?&quot;" newline="True"/>
+            <input variable="informationPlane[1]"/>
+            <output expression="&quot;Qual o n&#250;mero do voo?&quot;" newline="True"/>
+            <input variable="informationPlane[2]"/>
+            <output expression="&quot;Qual o hor&#225;rio do voo?&quot;" newline="True"/>
+            <input variable="informationPlane[3]"/>
+            <declare name="infoFlight" type="String" array="False" size=""/>
+            <comment text="Declara&#231;&#227;o de vari&#225;vel com as inform&#231;&#245;es do voo, sendo o return da fun&#231;&#227;o"/>
+            <assign variable="infoFlight" expression="informationPlane[0] &amp;  &quot;, &quot; &amp; informationPlane[1] &amp; &quot;, &quot; &amp; informationPlane[2] &amp; &quot;, &quot; &amp; informationPlane[3]"/>
+        </body>
+    </function>
+    <function name="namePassengerFunc" type="String" variable="namePassenger">
+        <parameters/>
+        <body>
+            <comment text="Fun&#231;&#227;o com condicional para declara&#231;&#227;o do nome do passageiro"/>
+            <declare name="namePassenger" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome&quot;" newline="True"/>
+            <input variable="namePassenger"/>
+            <comment text="N&#250;mero m&#237;nimo de caracteres para aceitar o nome do passageiro como v&#225;lido&#13;&#10;"/>
+            <while expression="len(namePassenger) &lt; 2">
+                <output expression="&quot;Nome inv&#225;lido, por favor digite seu nome novamente&quot;" newline="True"/>
+                <input variable="namePassenger"/>
+            </while>
+            <output expression="&quot;Ol&#225;, &quot; &amp; namePassenger &amp; &quot;! Estou aqui para ajudar voc&#234; a se organizar para seu voo.&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="numberofintances" type="Integer" variable="qty">
+        <parameters>
+            <parameter name="hourPlane" type="String" array="False"/>
+            <parameter name="splitOn" type="String" array="False"/>
+        </parameters>
+        <body>
+            <comment text="n&#250;mero de vezes que a fun&#231;&#227;o split deve rodar para conseguir seprar a hora, sendo a condi&#231;&#227;o para o split &quot;:&quot;"/>
+            <declare name="count, qty" type="Integer" array="False" size=""/>
+            <assign variable="qty" expression="1"/>
+            <for variable="count" start="0" end="len(hourPlane)-1" direction="inc" step="1">
+                <comment text="enquanto a vari&#225;vel alocada posi&#231;&#227;o da hora do voo for diferente da condi&#231;&#227;o do split (:), deve separar os elementos, entre xx:yy"/>
+                <if expression="Char(hourPlane, count) == splitOn">
+                    <then>
+                        <comment text="quando chega na posi&#231;&#227;o em que o split (:) &#233; declarado, faz a soma da contagem das instancias "/>
+                        <assign variable="qty" expression="qty +1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+    <function name="numberPlaneFunc" type="String" variable="numberPlane">
+        <parameters/>
+        <body>
+            <comment text="Fun&#231;&#227;o com condicional para declara&#231;&#227;o do n&#250;mero do voo"/>
+            <declare name="numberPlane" type="String" array="False" size=""/>
+            <output expression="&quot;Qual o n&#250;mero do voo? (ex: 14E26)&quot;" newline="True"/>
+            <input variable="numberPlane"/>
+            <comment text="pr&#233;-difini&#231;&#227;o do n&#250;mero de caracteres para o n&#250;mero do voo"/>
+            <while expression="len(numberPlane) != 5">
+                <output expression="&quot;N&#250;mero de voo inv&#225;lido, o n&#250;mero do voo deve conter 5 caracteres. Por favor digite novamente o n&#250;mero do voo (ex: 14E26)&quot;" newline="True"/>
+                <input variable="numberPlane"/>
+            </while>
+        </body>
+    </function>
+    <function name="passaportNumberFunc" type="String" variable="passaportNumber">
+        <parameters/>
+        <body>
+            <comment text="Fun&#231;&#227;o com condicional para declara&#231;&#227;o do n&#250;mero do passaporte"/>
+            <declare name="passaportNumber" type="String" array="False" size=""/>
+            <output expression="&quot;Digite o n&#250;mero de identifica&#231;&#227;o do seu passaporte. (ex: AB123456)&quot;" newline="True"/>
+            <input variable="passaportNumber"/>
+            <comment text="O n&#250;mero de identifica&#231;&#227;o do passaporte deve conter 8 caracteres"/>
+            <while expression="len(passaportNumber) != 8">
+                <output expression="&quot;Valor inv&#225;lido, o n&#250;mero do passaporte deve conter 2 letras seguido de 6 n&#250;meros. Por favor insira o n&#250;mero de seu passaporte novamente&quot;" newline="True"/>
+                <input variable="passaportNumber"/>
+            </while>
+        </body>
+    </function>
+    <function name="slice" type="None" variable="">
+        <parameters>
+            <parameter name="hourPlane" type="String" array="False"/>
+            <parameter name="sliceOn" type="String" array="False"/>
+            <parameter name="numberofitems" type="Integer" array="False"/>
+            <parameter name="slicedList" type="String" array="True"/>
+        </parameters>
+        <body>
+            <declare name="counter, count" type="Integer" array="False" size=""/>
+            <assign variable="counter" expression="0"/>
+            <while expression="counter != numberofitems">
+                <comment text="enquanto o contador for diferente do n&#250;mero de inst&#226;ncias"/>
+                <assign variable="slicedList[counter]" expression="&quot;&quot;"/>
+                <for variable="count" start="0" end="len(hourPlane)-1" direction="inc" step="1">
+                    <if expression="Char(hourPlane, count) == sliceOn">
+                        <then>
+                            <comment text="quando, na contagem de elementos chegar no split (:) vai pular 1 casa, sem contar o &quot;:&quot; como importante para o resultado"/>
+                            <assign variable="counter" expression="counter + 1"/>
+                            <assign variable="slicedList[counter]" expression="&quot;&quot;"/>
+                        </then>
+                        <else>
+                            <assign variable="slicedList[counter]" expression="slicedList[counter] &amp; Char(hourPlane, count)"/>
+                        </else>
+                    </if>
+                </for>
+                <assign variable="counter" expression="counter+1"/>
+            </while>
+        </body>
+    </function>
+    <function name="splitHourPlane" type="Integer" variable="h1">
+        <parameters>
+            <parameter name="hourPlane" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="numberofitems" type="Integer" array="False" size=""/>
+            <declare name="splitOn" type="String" array="False" size=""/>
+            <assign variable="splitOn" expression="&quot;:&quot;"/>
+            <assign variable="numberofitems" expression="numberofintances(hourPlane, splitOn)"/>
+            <declare name="slicedList" type="String" array="True" size="numberofitems"/>
+            <call expression="slice(hourPlane, splitOn, numberofitems, slicedList)"/>
+            <declare name="h1" type="Integer" array="False" size=""/>
+            <comment text="Pega a parte da hora, separado pelo slice, e aloca numa vari&#225;vel para dar como retorno da fun&#231;&#227;o"/>
+            <assign variable="h1" expression="ToInteger(slicedList[0])"/>
+        </body>
+    </function>
+    <function name="splitMinPlane" type="Integer" variable="min1">
+        <parameters>
+            <parameter name="hourPlane" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="numberofitems" type="Integer" array="False" size=""/>
+            <declare name="splitOn" type="String" array="False" size=""/>
+            <assign variable="splitOn" expression="&quot;:&quot;"/>
+            <assign variable="numberofitems" expression="numberofintances(hourPlane, splitOn)"/>
+            <declare name="slicedList" type="String" array="True" size="numberofitems"/>
+            <call expression="slice(hourPlane, splitOn, numberofitems, slicedList)"/>
+            <declare name="min1" type="Integer" array="False" size=""/>
+            <comment text="Pega a parte do minuto, separado pelo slice, e aloca numa vari&#225;vel para dar como retorno da fun&#231;&#227;o"/>
+            <assign variable="min1" expression="ToInteger(slicedList[1])"/>
+        </body>
+    </function>
+    <function name="timePlaneFunc" type="String" variable="timePlane">
+        <parameters/>
+        <body>
+            <comment text="Fun&#231;&#227;o com condicional para declara&#231;&#227;o do hor&#225;rio do voo"/>
+            <declare name="timePlane" type="String" array="False" size=""/>
+            <output expression="&quot;Qual o hor&#225;rio do seu voo? (ex: 13:40)&quot;" newline="True"/>
+            <input variable="timePlane"/>
+            <comment text="N&#250;mero m&#237;nimo de caracteres para aceitar como hor&#225;rio do voo"/>
+            <while expression="len(timePlane) != 5">
+                <output expression="&quot;Hora inv&#225;lida, por favor digite novamente o hor&#225;rio de seu voo. (ex: 00:20)&quot;" newline="True"/>
+                <input variable="timePlane"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

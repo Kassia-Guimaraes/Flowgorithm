@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-02 06:13:44 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTAyOyIwMzoyNToyOCAiOzI1MTU="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTAyOyIwNjoxMzo0NCAiOzM7MjYyMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="iData" type="Integer" array="True" size="5"/>
+            <declare name="standardDeviation, iMedia" type="Real" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="b" type="String" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <declare name="data" type="Real" array="False" size=""/>
+            <assign variable="iMedia" expression="0"/>
+            <while expression="i &lt; 5">
+                <output expression="&quot;Digite o dado: &quot;" newline="True"/>
+                <input variable="iData[i]"/>
+                <assign variable="iMedia" expression="iMedia + iData[i]"/>
+                <assign variable="b" expression="ToString(iData[i])"/>
+                <assign variable="i" expression="i + 1"/>
+            </while>
+            <output expression="b" newline="True"/>
+            <assign variable="iMedia" expression="iMedia / i"/>
+            <declare name="j" type="Integer" array="False" size=""/>
+            <assign variable="j" expression="0"/>
+            <declare name="allArray" type="String" array="False" size=""/>
+            <assign variable="allArray" expression="&quot;resposta: &quot;"/>
+            <while expression="j&lt;4">
+                <output expression="iData[j]" newline="True"/>
+                <assign variable="j" expression="j+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

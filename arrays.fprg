@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-17 04:11:32 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE3OyIwMzo1MTowMiAiOzI1MTI="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE3OyIwNDoxMTozMiAiOzE7MjYyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numbers" type="Integer" array="True" size="10"/>
+            <declare name="Average" type="Real" array="False" size=""/>
+            <call expression="InitArray(numbers)"/>
+            <call expression="PrintArray(numbers)"/>
+            <assign variable="Average" expression="ComputeSum(numbers)/Size(numbers)"/>
+            <output expression="&quot;Avarage of the Array Elements := &quot; &amp; Average" newline="True"/>
+        </body>
+    </function>
+    <function name="InitArray" type="None" variable="">
+        <parameters>
+            <parameter name="a" type="Integer" array="True"/>
+        </parameters>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Please enter array elements :=&quot;" newline="True"/>
+            <for variable="i" start="0" end="Size(a)-1" direction="inc" step="1">
+                <input variable="a[i]"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

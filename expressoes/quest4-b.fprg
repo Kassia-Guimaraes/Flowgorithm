@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-25 04:58:38 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwNDo1NDoyNiAiOzI1Mjk="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwNDo1ODozOCAiOzM7MjY0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="medMM, medPOL" type="Real" array="False" size=""/>
+            <output expression="&quot;Para descobrir quantas polegadas est&#225; em mil&#237;metros digite a escala em polegadas (ex: 25,02)&quot;" newline="True"/>
+            <input variable="medPOL"/>
+            <assign variable="medMM" expression="25.4*medPOL"/>
+            <output expression="&quot;A quantidade de &quot; &amp; medPOL &amp; &quot; polegadas equivale &#224; &quot; &amp; medMM &amp; &quot; mil&#237;metros&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

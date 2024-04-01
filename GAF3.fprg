@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-16 03:51:00 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE2OyIwMzozNjoyMyAiOzI1MTc="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE2OyIwMzo1MTowMCAiOzE7MjYxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ssize" type="Integer" array="False" size=""/>
+            <declare name="i, location, ele, MaxSize" type="Integer" array="False" size=""/>
+            <assign variable="MaxSize" expression="100"/>
+            <declare name="arr" type="Integer" array="True" size="MaxSize"/>
+            <output expression="&quot;[IT] Quanti elementi?&quot; &amp; ToChar(13) &amp; ToChar(10) &amp; &quot;[EN] Enter the total number of elements&quot;" newline="True"/>
+            <input variable="ssize"/>
+            <for variable="i" start="0" end="ssize -1" direction="inc" step="1">
+                <output expression="&quot;[IT] Eelemento n.: &quot; &amp; ToString(i+1) &amp; ToChar(13) &amp; ToChar(10) &amp; &quot;[EN] Element n.: &quot; &amp; ToString(i+1)" newline="True"/>
+                <input variable="arr[i]"/>
+            </for>
+            <output expression="&quot;[IT] Digita I'elemento da inserire: &quot; &amp; ToChar(13) &amp; ToChar(10) &amp; &quot;[EN] Enter the elements to be inserted : &quot;" newline="True"/>
+            <input variable="ele"/>
+            <output expression="&quot;[IT] Digita quale posizione inserire I'elemento: &quot; &amp; ToChar(13) &amp; ToChar(10) &amp; &quot;[EN] Enter the location: &quot;" newline="True"/>
+            <input variable="location"/>
+            <for variable="i" start="ssize" end="location" direction="dec" step="1">
+                <assign variable="arr[i]" expression="arr[i-1]"/>
+            </for>
+            <assign variable="ssize" expression="ssize + 1"/>
+            <assign variable="arr[location - 1]" expression="ele"/>
+            <for variable="i" start="0" end="ssize -1" direction="inc" step="1">
+                <output expression="arr[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+    <function name="coisa" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ssize" type="Integer" array="False" size=""/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-30 05:12:23 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTMwOyIwNDoyOTowOCAiOzI1MTk="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTMwOyIwNToxMjoyMyAiOzI7MjYxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="culturas" type="String" array="True" size="3"/>
+            <assign variable="culturas[0]" expression="&quot;Trigo&quot;"/>
+            <assign variable="culturas[1]" expression="&quot;Aveia&quot;"/>
+            <assign variable="culturas[2]" expression="&quot;Cevada&quot;"/>
+            <declare name="acres, hectares" type="Real" array="False" size=""/>
+            <declare name="cobertura, custoTotal, seguro" type="Real" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="custoTotal" expression="0"/>
+            <for variable="i" start="0" end="2" direction="inc" step="1">
+                <output expression="&quot;Insira o valor de cobertura para a cultura de &quot; &amp; culturas[i]" newline="True"/>
+                <input variable="cobertura"/>
+                <output expression="&quot;Insira o n&#250;mero de acres plantados para o cultivo de &quot; &amp; culturas[i]" newline="True"/>
+                <input variable="acres"/>
+                <assign variable="hectares" expression="acres * 0.4"/>
+                <assign variable="seguro" expression="(cobertura * 0.0035) * hectares"/>
+                <output expression="&quot;O custo do seguro para &quot; &amp; culturas[i] &amp; &quot; &#233; de &quot; &amp; seguro &amp; &quot; euros&quot;" newline="True"/>
+                <assign variable="custoTotal" expression="custoTotal + seguro"/>
+            </for>
+            <output expression="&quot;O custo total do seguro para as 3 planta&#231;&#245;es &#233; de &quot; &amp; custoTotal &amp; &quot; euros&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

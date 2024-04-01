@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 3.5.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1575" height="2575">
+	<rect x="0" y="0" width="1575" height="2575" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,200 525,350"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,2300 525,2361"/>
+		<polygon fill="#404040" stroke="none" points="525,2375 538,2350 511,2350"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 300,100 A 50 50, 0, 0 0, 300 200 L 750,200 A 50 50, 0, 0 0, 750 100 Z"/>
+			<text x="525" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="525" dy="50" unicode-bidi="embed">namePassengerFunc</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 225,2375 A 50 50, 0, 0 0, 225 2475 L 825,2475 A 50 50, 0, 0 0, 825 2375 Z"/>
+			<text x="525" y="2390" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="525" dy="50" unicode-bidi="embed">Return String namePassenger</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,350 525,486"/>
+			<polygon fill="#404040" stroke="none" points="525,500 538,475 511,475"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,625 525,686"/>
+			<polygon fill="#404040" stroke="none" points="525,700 538,675 511,675"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,800 525,861"/>
+			<polygon fill="#404040" stroke="none" points="525,875 538,850 511,850"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,975 525,1150"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,1150 525,1336"/>
+			<polygon fill="#404040" stroke="none" points="525,1350 538,1325 511,1325"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,1450 525,2036"/>
+			<polygon fill="#404040" stroke="none" points="525,2050 538,2025 511,2025"/>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="525,350 650,350"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 650,275 L 650,425 L 1400,425 L 1400,275 Z"/>
+					<text x="1025" y="290" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1025" dy="50" unicode-bidi="embed">Fun&#231;&#227;o com condicional para</tspan>
+						<tspan x="1025" dy="50" unicode-bidi="embed"> declara&#231;&#227;o do nome do passageiro</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 250,500 L 250,625 L 800,625 L 800,500 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="250,525 800,525"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="275,500 275,625"/>
+				<text x="537" y="540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="537" dy="50" unicode-bidi="embed">String namePassenger</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 250,700 L 200,800 L 800,800 L 850,700 Z"/>
+				<text x="525" y="715" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="525" dy="50" unicode-bidi="embed">Output &quot;Digite seu nome&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 275,875 L 225,975 L 775,975 L 825,875 Z"/>
+				<text x="525" y="890" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="525" dy="50" unicode-bidi="embed">Input namePassenger</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="525,1150 650,1150"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 650,1050 L 650,1250 L 1400,1250 L 1400,1050 Z"/>
+					<text x="1025" y="1065" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1025" dy="50" unicode-bidi="embed">N&#250;mero m&#237;nimo de caracteres para</tspan>
+						<tspan x="1025" dy="50" unicode-bidi="embed"> aceitar o nome do passageiro como</tspan>
+						<tspan x="1025" dy="50" unicode-bidi="embed"> v&#225;lido</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="850,1400 1075,1400 1075,1486"/>
+				<polygon fill="#404040" stroke="none" points="1075,1500 1088,1475 1061,1475"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1075,1875 1075,1950 575,1950 575,1463"/>
+				<polygon fill="#404040" stroke="none" points="575,1450 561,1474 588,1474"/>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1075,1700 1075,1761"/>
+					<polygon fill="#404040" stroke="none" points="1075,1775 1088,1750 1061,1750"/>
+					<g>
+						<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 775,1500 L 675,1700 L 1375,1700 L 1475,1500 Z"/>
+						<text x="1075" y="1515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1075" dy="50" unicode-bidi="embed">Output &quot;Nome inv&#225;lido, por</tspan>
+							<tspan x="1075" dy="50" unicode-bidi="embed"> favor digite seu nome</tspan>
+							<tspan x="1075" dy="50" unicode-bidi="embed"> novamente&quot;</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 825,1775 L 775,1875 L 1325,1875 L 1375,1775 Z"/>
+						<text x="1075" y="1790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1075" dy="50" unicode-bidi="embed">Input namePassenger</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 250,1350 L 200,1400 L 250,1450 L 800,1450 L 850,1400 L 800,1350 Z"/>
+					<text x="525" y="1365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="525" dy="50" unicode-bidi="embed">len(namePassenger) &lt; 2</tspan>
+					</text>
+				</g>
+				<text x="925" y="1315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="925" dy="50" unicode-bidi="embed">True</tspan>
+				</text>
+				<text x="437" y="1465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="437" dy="50" unicode-bidi="embed">False</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 225,2050 L 100,2300 L 825,2300 L 950,2050 Z"/>
+				<text x="525" y="2065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="525" dy="50" unicode-bidi="embed">Output &quot;Ol&#225;, &quot; &amp;</tspan>
+					<tspan x="525" dy="50" unicode-bidi="embed"> namePassenger &amp; &quot;! Estou</tspan>
+					<tspan x="525" dy="50" unicode-bidi="embed"> aqui para ajudar voc&#234; a se</tspan>
+					<tspan x="525" dy="50" unicode-bidi="embed"> organizar para seu voo.&quot;</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

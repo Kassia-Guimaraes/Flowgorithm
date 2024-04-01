@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-25 05:28:37 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwNTowMTo1OCAiOzI1Mjc="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwNToyODozNyAiOzE7MjY0MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu(s) nome(s) pr&#243;prio(s) (ex: Maria)&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Agora digite seu(s) sobrenome(s) (ex: Mendon&#231;a da Silva)&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="sobrenome &amp; &quot;, &quot; &amp; nome" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 05:42:15 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTA5OyIwNToyMDowNSAiOzI1MTQ="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTA5OyIwNTo0MjoxNSAiOzI7MjYyOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="error, problems" type="Integer" array="False" size=""/>
+            <assign variable="error" expression="1"/>
+            <for variable="problems" start="0" end="25" direction="inc" step="1">
+                <output expression="&quot;Semana &quot; &amp; int(problems/2+1) &amp;&quot; e est&#225; no problema &quot; &amp; problems &amp; &quot; a quantidade de erros neste problema &#233;: &quot; &amp; error" newline="True"/>
+                <assign variable="error" expression="error * 2"/>
+            </for>
+            <output expression="&quot;Semana 13 e est&#225; no problema &quot; &amp; problems &amp; &quot; a quantidade de erros neste problema &#233;: &quot; &amp; error" newline="True"/>
+            <output expression="&quot;Fim do programa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

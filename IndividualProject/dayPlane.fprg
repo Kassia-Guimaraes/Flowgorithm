@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 06:52:50 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE1OyIwNjozNzozMCAiOzI1MTg="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTExLTA1OyIwNjo1Mjo1MCAiOzEzOzI2NzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lines, i" type="Integer" array="False" size=""/>
+            <declare name="numberPlane" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quantas aeronoves t&#234;m no dia?&quot;" newline="True"/>
+            <input variable="lines"/>
+            <declare name="airPlanes" type="String" array="True" size="lines"/>
+            <for variable="i" start="0" end="lines - 1" direction="inc" step="1">
+                <assign variable="airPlanes[i]" expression="infoPlanes()"/>
+            </for>
+            <output expression="&quot;As aeronaves do dia s&#227;o:&quot;" newline="True"/>
+            <for variable="i" start="0" end="lines-1" direction="inc" step="1">
+                <output expression="airPlanes[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+    <function name="infoPlanes" type="String" variable="infoFlight">
+        <parameters/>
+        <body>
+            <declare name="hourPlane" type="String" array="False" size=""/>
+            <declare name="informationPlane" type="String" array="True" size="4"/>
+            <declare name="hour, minuts" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual a companhia a&#233;rea do voo?&quot;" newline="True"/>
+            <input variable="informationPlane[0]"/>
+            <output expression="&quot;Qual o destino do voo?&quot;" newline="True"/>
+            <input variable="informationPlane[1]"/>
+            <output expression="&quot;Qual o n&#250;mero do voo?&quot;" newline="True"/>
+            <input variable="informationPlane[2]"/>
+            <call expression="hourPlane"/>
+            <declare name="infoFlight" type="String" array="False" size=""/>
+            <assign variable="infoFlight" expression="informationPlane[0] &amp;  &quot;, &quot; &amp; informationPlane[1] &amp; &quot;, &quot; &amp; informationPlane[2] &amp; &quot;, &quot; &amp; informationPlane[3]"/>
+        </body>
+    </function>
+</flowgorithm>

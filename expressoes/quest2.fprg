@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-25 04:43:28 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwMzowMjowMCAiOzI1MTM="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwNDo0MzoyOCAiOzY7MjY0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, e, f, g, h" type="Integer" array="False" size=""/>
+            <declare name="a1, b1, c1, d1, e1, f1, g1, h1" type="Real" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="2"/>
+            <assign variable="c" expression="3"/>
+            <assign variable="d" expression="4"/>
+            <assign variable="e" expression="5"/>
+            <assign variable="f" expression="6"/>
+            <assign variable="g" expression="7"/>
+            <assign variable="h" expression="8"/>
+            <assign variable="a1" expression="(a/b)+1"/>
+            <output expression="&quot;o valor de a) &#233; &quot; &amp; a1" newline="True"/>
+            <assign variable="b1" expression="(a+b)/(c-d)"/>
+            <output expression="&quot;o valor de b) &#233; &quot; &amp; b1" newline="True"/>
+            <assign variable="c1" expression="(a+(b/c)) / (d-(e/ f))"/>
+            <output expression="&quot;o valor de c) &#233; &quot; &amp; c1" newline="True"/>
+            <assign variable="d1" expression="a+(b/(c-d))"/>
+            <output expression="&quot;o valor de d) &#233; &quot; &amp; d1" newline="True"/>
+            <assign variable="e1" expression="(a+b)*(c/d)"/>
+            <output expression="&quot;o valor de e) &#233; &quot; &amp; e1" newline="True"/>
+            <assign variable="f1" expression="((a+b)^c)^d"/>
+            <output expression="&quot;o valor de f) &#233; &quot; &amp; f1" newline="True"/>
+            <assign variable="g1" expression="(sin(a)+cos(a))/tan(a)"/>
+            <output expression="&quot;o valor de g) &#233; &quot; &amp; g1" newline="True"/>
+            <assign variable="h1" expression="(-b+(sqrt((b^2))-(4*a*c)))/2*a"/>
+            <output expression="&quot;o valor de h) &#233; &quot; &amp; h1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

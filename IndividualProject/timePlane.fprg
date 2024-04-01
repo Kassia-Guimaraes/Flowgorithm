@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-31 10:48:08 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE5OyIwNzo0NjowMSAiOzI1MjE="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTIyOyIwOToyNzowOSAiOzE7a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE5OyIwOTowODozMyAiO3NwbGl0VGVzdC5mcHJnOzY3MjU="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTMxOyIxMDo0ODowOCAiOzI5OzI2ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="namePassenger, identPassenger, hourPlane" type="String" array="False" size=""/>
+            <declare name="numberPlane, countName" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite seu nome&quot;" newline="True"/>
+            <input variable="namePassenger"/>
+            <output expression="&quot;Ol&#225;, &quot; &amp; namePassenger &amp; &quot;! Estou aqui para ajudar voc&#234; a se organizar para seu voo.&quot;" newline="True"/>
+            <output expression="&quot;Digite o n&#250;mero de identifica&#231;&#227;o do seu passaporte&quot;" newline="True"/>
+            <input variable="identPassenger"/>
+            <output expression="&quot;Qual o hor&#225;rio do seu voo?&quot;" newline="True"/>
+            <input variable="hourPlane"/>
+            <output expression="&quot;Qual o n&#250;mero do voo?&quot;" newline="True"/>
+            <input variable="numberPlane"/>
+            <declare name="hour, minute" type="Integer" array="False" size=""/>
+            <assign variable="hour" expression="splitHourPlane(hourPlane)"/>
+            <assign variable="minute" expression="splitMinPlane(hourPlane)"/>
+            <call expression="hourMin(namePassenger, hour, minute)"/>
+            <call expression="hourMax(namePassenger, hour, minute)"/>
+            <output expression="namePassenger &amp; &quot;, para passar pela seguran&#231;a deve ter em m&#227;os o seu passaporte, como documento de identifica&#231;&#227;o e o n&#250;mero do voo. Fa&#231;a uma boa viagem e at&#233; a pr&#243;xima!&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="hourMax" type="None" variable="hourMaximum">
+        <parameters>
+            <parameter name="namePassenger" type="String" array="False"/>
+            <parameter name="hour" type="Integer" array="False"/>
+            <parameter name="minute" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="hourMaximum" type="Real" array="False" size=""/>
+            <declare name="valueMinute, valueHour" type="Integer" array="False" size=""/>
+            <if expression="minute &lt; 30">
+                <then>
+                    <if expression="hour &lt; 1">
+                        <then>
+                            <assign variable="hour" expression="24"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <assign variable="hourMaximum" expression="hour - 1"/>
+                    <assign variable="valueMinute" expression="30 + minute"/>
+                    <output expression="&quot;A hora m&#225;xima que deve se apresentar para a seguran&#231;a &#233; &#224;s &quot;&amp; Abs(hourMaximum) &amp; &quot;:&quot; &amp; valueMinute" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="valueMinute" expression="minute - 30"/>
+                    <output expression="namePassenger &amp; &quot;, a hora m&#225;xima que deve se apresentar para a seguran&#231;a &#233; &#224;s &quot;&amp; hour &amp; &quot;:&quot; &amp; valueMinute" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="hourMin" type="None" variable="hourMinimum">
+        <parameters>
+            <parameter name="namePassenger" type="String" array="False"/>
+            <parameter name="hour" type="Integer" array="False"/>
+            <parameter name="minute" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="hourMinimum" type="String" array="False" size=""/>
+            <if expression="hour == 00 or hour == 0">
+                <then>
+                    <assign variable="hour" expression="24"/>
+                </then>
+                <else>
+                    <if expression="hour == 01 or hour == 1">
+                        <then>
+                            <assign variable="hour" expression="25"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <if expression="minute &lt; 30">
+                <then>
+                    <output expression="namePassenger &amp; &quot;, pode se apresentar na fila para a seguran&#231;a a partir das &quot;&amp; (hour-2) &amp; &quot;:00&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="namePassenger &amp; &quot;, pode se apresentar na fila para a seguran&#231;a a partir das &quot;&amp; (hour-2) &amp; &quot;:30&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="numberofintances" type="Integer" variable="qty">
+        <parameters>
+            <parameter name="hourPlane" type="String" array="False"/>
+            <parameter name="item" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="count, qty" type="Integer" array="False" size=""/>
+            <assign variable="qty" expression="1"/>
+            <for variable="count" start="0" end="len(hourPlane)-1" direction="inc" step="1">
+                <if expression="Char(hourPlane, count) == item">
+                    <then>
+                        <assign variable="qty" expression="qty +1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+    <function name="slice" type="None" variable="">
+        <parameters>
+            <parameter name="hourPlane" type="String" array="False"/>
+            <parameter name="sliceOn" type="String" array="False"/>
+            <parameter name="numberofitems" type="Integer" array="False"/>
+            <parameter name="slicedList" type="String" array="True"/>
+        </parameters>
+        <body>
+            <declare name="counter, count" type="Integer" array="False" size=""/>
+            <assign variable="counter" expression="0"/>
+            <while expression="counter != numberofitems">
+                <assign variable="slicedList[counter]" expression="&quot;&quot;"/>
+                <for variable="count" start="0" end="len(hourPlane)-1" direction="inc" step="1">
+                    <if expression="Char(hourPlane, count) == sliceOn">
+                        <then>
+                            <assign variable="counter" expression="counter + 1"/>
+                            <assign variable="slicedList[counter]" expression="&quot;&quot;"/>
+                        </then>
+                        <else>
+                            <assign variable="slicedList[counter]" expression="slicedList[counter] &amp; Char(hourPlane, count)"/>
+                        </else>
+                    </if>
+                </for>
+                <assign variable="counter" expression="counter+1"/>
+            </while>
+        </body>
+    </function>
+    <function name="splitHourPlane" type="Integer" variable="h1">
+        <parameters>
+            <parameter name="hourPlane" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="numberofitems" type="Integer" array="False" size=""/>
+            <declare name="splitOn" type="String" array="False" size=""/>
+            <assign variable="splitOn" expression="&quot;:&quot;"/>
+            <assign variable="numberofitems" expression="numberofintances(hourPlane, splitOn)"/>
+            <declare name="slicedList" type="String" array="True" size="numberofitems"/>
+            <call expression="slice(hourPlane, splitOn, numberofitems, slicedList)"/>
+            <declare name="h1" type="Integer" array="False" size=""/>
+            <assign variable="h1" expression="ToInteger(slicedList[0])"/>
+        </body>
+    </function>
+    <function name="splitMinPlane" type="Integer" variable="min1">
+        <parameters>
+            <parameter name="hourPlane" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="min1" type="Integer" array="False" size=""/>
+            <declare name="numberofitems" type="Integer" array="False" size=""/>
+            <declare name="splitOn" type="String" array="False" size=""/>
+            <assign variable="splitOn" expression="&quot;:&quot;"/>
+            <assign variable="numberofitems" expression="numberofintances(hourPlane, splitOn)"/>
+            <declare name="slicedList" type="String" array="True" size="numberofitems"/>
+            <call expression="slice(hourPlane, splitOn, numberofitems, slicedList)"/>
+            <declare name="h1" type="Integer" array="False" size=""/>
+            <assign variable="min1" expression="ToInteger(slicedList[1])"/>
+        </body>
+    </function>
+</flowgorithm>

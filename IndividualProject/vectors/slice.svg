@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 3.5.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="3775" height="3350">
+	<rect x="0" y="0" width="3775" height="3350" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,300 750,361"/>
+		<polygon fill="#404040" stroke="none" points="750,375 763,350 736,350"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,875 750,3136"/>
+		<polygon fill="#404040" stroke="none" points="750,3150 763,3125 736,3125"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 200,100 A 100 100, 0, 0 0, 200 300 L 1300,300 A 100 100, 0, 0 0, 1300 100 Z"/>
+			<text x="750" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="750" dy="50" unicode-bidi="embed">slice</tspan>
+				<tspan x="750" dy="50" unicode-bidi="embed">(String hourPlane, String sliceOn, Integer numberofitems,</tspan>
+				<tspan x="750" dy="50" unicode-bidi="embed"> String Array slicedList)</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 650,3150 A 50 50, 0, 0 0, 650 3250 L 850,3250 A 50 50, 0, 0 0, 850 3150 Z"/>
+			<text x="750" y="3165" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="750" dy="50" unicode-bidi="embed">End</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,500 750,561"/>
+			<polygon fill="#404040" stroke="none" points="750,575 763,550 736,550"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,675 750,761"/>
+			<polygon fill="#404040" stroke="none" points="750,775 763,750 736,750"/>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 500,375 L 500,500 L 1000,500 L 1000,375 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="500,400 1000,400"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="525,375 525,500"/>
+				<text x="762" y="415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="762" dy="50" unicode-bidi="embed">Integer counter, count</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 600,575 L 600,675 L 900,675 L 900,575 Z"/>
+				<text x="750" y="590" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="750" dy="50" unicode-bidi="embed">counter = 0</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1075,825 1200,825 1200,1000"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1200,2975 1200,3050 800,3050 800,888"/>
+				<polygon fill="#404040" stroke="none" points="800,875 786,899 813,899"/>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1200,1000 1200,1136"/>
+					<polygon fill="#404040" stroke="none" points="1200,1150 1213,1125 1186,1125"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1200,1250 1200,1311"/>
+					<polygon fill="#404040" stroke="none" points="1200,1325 1213,1300 1186,1300"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1200,1475 1200,2861"/>
+					<polygon fill="#404040" stroke="none" points="1200,2875 1213,2850 1186,2850"/>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="1200,1000 1325,1000"/>
+						<g>
+							<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 1325,925 L 1325,1075 L 2075,1075 L 2075,925 Z"/>
+							<text x="1700" y="940" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1700" dy="50" unicode-bidi="embed">enquanto o contador for diferente do</tspan>
+								<tspan x="1700" dy="50" unicode-bidi="embed"> n&#250;mero de inst&#226;ncias</tspan>
+							</text>
+						</g>
+					</g>
+					<g>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 950,1150 L 950,1250 L 1450,1250 L 1450,1150 Z"/>
+						<text x="1200" y="1165" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1200" dy="50" unicode-bidi="embed">slicedList[counter] = &quot;&quot;</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1450,1400 2250,1400 2250,1511"/>
+						<polygon fill="#404040" stroke="none" points="2250,1525 2263,1500 2236,1500"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2250,2700 2250,2775 1250,2775 1250,1488"/>
+						<polygon fill="#404040" stroke="none" points="1250,1475 1236,1499 1263,1499"/>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2625,1725 2800,1725 2800,2100"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2800,2575 2800,2675 2288,2675"/>
+							<polygon fill="#404040" stroke="none" points="2275,2675 2299,2688 2299,2661"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1875,1725 1675,1725 1675,1961"/>
+							<polygon fill="#404040" stroke="none" points="1675,1975 1688,1950 1661,1950"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1675,2175 1675,2675 2211,2675"/>
+							<polygon fill="#404040" stroke="none" points="2225,2675 2200,2661 2200,2688"/>
+							<g>
+								<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 2250,1525 L 1850,1725 L 2250,1925 L 2650,1725 Z"/>
+								<text x="2250" y="1665" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="2250" dy="50" unicode-bidi="embed">Char(hourPlane, count) ==</tspan>
+									<tspan x="2250" dy="50" unicode-bidi="embed"> sliceOn</tspan>
+								</text>
+							</g>
+							<g>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2800,2100 2800,2286"/>
+								<polygon fill="#404040" stroke="none" points="2800,2300 2813,2275 2786,2275"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2800,2400 2800,2461"/>
+								<polygon fill="#404040" stroke="none" points="2800,2475 2813,2450 2786,2450"/>
+								<g>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="2800,2100 2925,2100"/>
+									<g>
+										<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 2925,1975 L 2925,2225 L 3675,2225 L 3675,1975 Z"/>
+										<text x="3300" y="1990" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="3300" dy="50" unicode-bidi="embed">quando, na contagem de elementos</tspan>
+											<tspan x="3300" dy="50" unicode-bidi="embed"> chegar no split (:) vai pular 1 casa,</tspan>
+											<tspan x="3300" dy="50" unicode-bidi="embed"> sem contar o &quot;:&quot; como importante</tspan>
+											<tspan x="3300" dy="50" unicode-bidi="embed"> para o resultado</tspan>
+										</text>
+									</g>
+								</g>
+								<g>
+									<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 2550,2300 L 2550,2400 L 3050,2400 L 3050,2300 Z"/>
+									<text x="2800" y="2315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="2800" dy="50" unicode-bidi="embed">counter = counter + 1</tspan>
+									</text>
+								</g>
+								<g>
+									<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 2550,2475 L 2550,2575 L 3050,2575 L 3050,2475 Z"/>
+									<text x="2800" y="2490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="2800" dy="50" unicode-bidi="embed">slicedList[counter] = &quot;&quot;</tspan>
+									</text>
+								</g>
+							</g>
+							<g>
+								<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 1375,1975 L 1375,2175 L 1975,2175 L 1975,1975 Z"/>
+								<text x="1675" y="1990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1675" dy="50" unicode-bidi="embed">slicedList[counter] =</tspan>
+									<tspan x="1675" dy="50" unicode-bidi="embed"> slicedList[counter] &amp; Char</tspan>
+									<tspan x="1675" dy="50" unicode-bidi="embed">(hourPlane, count)</tspan>
+								</text>
+							</g>
+							<ellipse cx="2250" cy="2675" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+							<text x="2725" y="1640" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="2725" dy="50" unicode-bidi="embed">True</tspan>
+							</text>
+							<text x="1762" y="1640" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1762" dy="50" unicode-bidi="embed">False</tspan>
+							</text>
+						</g>
+						<g>
+							<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 1025,1325 L 950,1400 L 1025,1475 L 1375,1475 L 1450,1400 L 1375,1325 Z"/>
+							<text x="1200" y="1340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1200" dy="50" unicode-bidi="embed">count = 0 to len</tspan>
+								<tspan x="1200" dy="50" unicode-bidi="embed">(hourPlane)-1</tspan>
+							</text>
+						</g>
+						<text x="1525" y="1315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1525" dy="50" unicode-bidi="embed">Next</tspan>
+						</text>
+						<text x="1112" y="1490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1112" dy="50" unicode-bidi="embed">Done</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 975,2875 L 975,2975 L 1425,2975 L 1425,2875 Z"/>
+						<text x="1200" y="2890" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1200" dy="50" unicode-bidi="embed">counter = counter+1</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 475,775 L 425,825 L 475,875 L 1025,875 L 1075,825 L 1025,775 Z"/>
+					<text x="750" y="790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="750" dy="50" unicode-bidi="embed">counter != numberofitems</tspan>
+					</text>
+				</g>
+				<text x="1150" y="740" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1150" dy="50" unicode-bidi="embed">True</tspan>
+				</text>
+				<text x="662" y="890" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="662" dy="50" unicode-bidi="embed">False</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

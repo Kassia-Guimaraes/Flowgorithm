@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 05:08:47 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTA5OyIwNTowNjowNiAiOzI1MTk="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTA5OyIwNTowODo0NyAiOzE7MjYzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="var, index" type="Integer" array="False" size=""/>
+            <assign variable="var" expression="0"/>
+            <for variable="index" start="4" end="36" direction="inc" step="4">
+                <assign variable="var" expression="var + 1"/>
+                <output expression="&quot;O valor do index passa para &quot; &amp; index &amp; &quot; e o total passa para &quot; &amp; var" newline="True"/>
+            </for>
+            <output expression="&quot;Fim do programa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 3.5.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="2150" height="3075">
+	<rect x="0" y="0" width="2150" height="3075" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1075,250 1075,400"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1075,2800 1075,2861"/>
+		<polygon fill="#404040" stroke="none" points="1075,2875 1088,2850 1061,2850"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 550,100 A 75 75, 0, 0 0, 550 250 L 1600,250 A 75 75, 0, 0 0, 1600 100 Z"/>
+			<text x="1075" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="1075" dy="50" unicode-bidi="embed">hourMax</tspan>
+				<tspan x="1075" dy="50" unicode-bidi="embed">(String namePassenger, Integer hour, Integer minute)</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 975,2875 A 50 50, 0, 0 0, 975 2975 L 1175,2975 A 50 50, 0, 0 0, 1175 2875 Z"/>
+			<text x="1075" y="2890" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="1075" dy="50" unicode-bidi="embed">End</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1075,400 1075,536"/>
+			<polygon fill="#404040" stroke="none" points="1075,550 1088,525 1061,525"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1075,675 1075,736"/>
+			<polygon fill="#404040" stroke="none" points="1075,750 1088,725 1061,725"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1075,925 1075,1075"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1075,1075 1075,1211"/>
+			<polygon fill="#404040" stroke="none" points="1075,1225 1088,1200 1061,1200"/>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="1075,400 1200,400"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 1200,325 L 1200,475 L 2000,475 L 2000,325 Z"/>
+					<text x="1600" y="340" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1600" dy="50" unicode-bidi="embed">Defini&#231;&#227;o da hora m&#225;xima para</tspan>
+						<tspan x="1600" dy="50" unicode-bidi="embed"> passageiro ir para a fila da seguran&#231;a</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 850,550 L 850,675 L 1300,675 L 1300,550 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="850,575 1300,575"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="875,550 875,675"/>
+				<text x="1087" y="590" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1087" dy="50" unicode-bidi="embed">Real hourMaximum</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 825,750 L 825,925 L 1325,925 L 1325,750 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="825,775 1325,775"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="850,750 850,925"/>
+				<text x="1087" y="790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1087" dy="50" unicode-bidi="embed">Integer valueMinute,</tspan>
+					<tspan x="1087" dy="50" unicode-bidi="embed"> valueHour</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="1075,1075 1200,1075"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 1200,1000 L 1200,1150 L 1900,1150 L 1900,1000 Z"/>
+					<text x="1550" y="1015" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1550" dy="50" unicode-bidi="embed">Hora m&#237;nima definida sendo 30</tspan>
+						<tspan x="1550" dy="50" unicode-bidi="embed"> minutos antes do hor&#225;rio do voo</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1250,1325 1575,1325 1575,1461"/>
+				<polygon fill="#404040" stroke="none" points="1575,1475 1588,1450 1561,1450"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1575,2675 1575,2775 1113,2775"/>
+				<polygon fill="#404040" stroke="none" points="1100,2775 1124,2788 1124,2761"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="900,1325 575,1325 575,1461"/>
+				<polygon fill="#404040" stroke="none" points="575,1475 588,1450 561,1450"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="575,1900 575,2775 1036,2775"/>
+				<polygon fill="#404040" stroke="none" points="1050,2775 1025,2761 1025,2788"/>
+				<g>
+					<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 1075,1225 L 875,1325 L 1075,1425 L 1275,1325 Z"/>
+					<text x="1075" y="1290" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1075" dy="50" unicode-bidi="embed">minute &lt; 30</tspan>
+					</text>
+				</g>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1575,1950 1575,2011"/>
+					<polygon fill="#404040" stroke="none" points="1575,2025 1588,2000 1561,2000"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1575,2125 1575,2186"/>
+					<polygon fill="#404040" stroke="none" points="1575,2200 1588,2175 1561,2175"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1575,2300 1575,2361"/>
+					<polygon fill="#404040" stroke="none" points="1575,2375 1588,2350 1561,2350"/>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1725,1575 1900,1575 1900,1711"/>
+						<polygon fill="#404040" stroke="none" points="1900,1725 1913,1700 1886,1700"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1900,1825 1900,1925 1613,1925"/>
+						<polygon fill="#404040" stroke="none" points="1600,1925 1624,1938 1624,1911"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1425,1575 1225,1575 1225,1925 1536,1925"/>
+						<polygon fill="#404040" stroke="none" points="1550,1925 1525,1911 1525,1938"/>
+						<g>
+							<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 1575,1475 L 1400,1575 L 1575,1675 L 1750,1575 Z"/>
+							<text x="1575" y="1540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1575" dy="50" unicode-bidi="embed">hour &lt; 1</tspan>
+							</text>
+						</g>
+						<g>
+							<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 1750,1725 L 1750,1825 L 2050,1825 L 2050,1725 Z"/>
+							<text x="1900" y="1740" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1900" dy="50" unicode-bidi="embed">hour = 24</tspan>
+							</text>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="1575" cy="1925" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+						<text x="1825" y="1490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1825" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="1312" y="1490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1312" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 1300,2025 L 1300,2125 L 1850,2125 L 1850,2025 Z"/>
+						<text x="1575" y="2040" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1575" dy="50" unicode-bidi="embed">hourMaximum = hour - 1</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 1275,2200 L 1275,2300 L 1875,2300 L 1875,2200 Z"/>
+						<text x="1575" y="2215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1575" dy="50" unicode-bidi="embed">valueMinute = 30 + minute</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 1275,2375 L 1125,2675 L 1875,2675 L 2025,2375 Z"/>
+						<text x="1575" y="2390" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1575" dy="50" unicode-bidi="embed">Output &quot;A hora m&#225;xima que</tspan>
+							<tspan x="1575" dy="50" unicode-bidi="embed"> deve se apresentar para a</tspan>
+							<tspan x="1575" dy="50" unicode-bidi="embed"> seguran&#231;a &#233; &#224;s &quot;&amp; Abs</tspan>
+							<tspan x="1575" dy="50" unicode-bidi="embed">(hourMaximum) &amp; &quot;:&quot; &amp;</tspan>
+							<tspan x="1575" dy="50" unicode-bidi="embed"> valueMinute</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="575,1575 575,1636"/>
+					<polygon fill="#404040" stroke="none" points="575,1650 588,1625 561,1625"/>
+					<g>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 300,1475 L 300,1575 L 850,1575 L 850,1475 Z"/>
+						<text x="575" y="1490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="575" dy="50" unicode-bidi="embed">valueMinute = minute - 30</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 250,1650 L 125,1900 L 900,1900 L 1025,1650 Z"/>
+						<text x="575" y="1665" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="575" dy="50" unicode-bidi="embed">Output &quot;A hora m&#225;xima que</tspan>
+							<tspan x="575" dy="50" unicode-bidi="embed"> deve se apresentar para a</tspan>
+							<tspan x="575" dy="50" unicode-bidi="embed"> seguran&#231;a &#233; &#224;s &quot;&amp; hour &amp; &quot;:&quot; &amp;</tspan>
+							<tspan x="575" dy="50" unicode-bidi="embed"> valueMinute</tspan>
+						</text>
+					</g>
+				</g>
+				<ellipse cx="1075" cy="2775" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+				<text x="1350" y="1240" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1350" dy="50" unicode-bidi="embed">True</tspan>
+				</text>
+				<text x="787" y="1240" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="787" dy="50" unicode-bidi="embed">False</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

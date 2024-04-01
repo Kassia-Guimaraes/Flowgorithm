@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-25 04:51:44 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwNDo0NzozMSAiOzI1Mjc="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwNDo1MTo0NCAiOzE7MjYzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tempC, tempF" type="Real" array="False" size=""/>
+            <output expression="&quot;Para descobrir quantos graus est&#225; em Fahrenheit digite a escala em Celsius (ex: 35,5)&quot;" newline="True"/>
+            <input variable="tempC"/>
+            <assign variable="tempF" expression="((9/5)*tempC)+32"/>
+            <output expression="&quot;A temperatura de &quot; &amp; tempC &amp; &quot; &#186;C equivale &#224; &quot; &amp; tempF &amp; &quot; &#186;F&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

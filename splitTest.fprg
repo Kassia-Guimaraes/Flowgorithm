@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-22 09:38:42 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE5OyIwOTowODozMyAiOzI1MjY="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTIwOyIwODowMjowNSAiOzE7a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE1OyIwNjozNzozMCAiO3Rlc3Rlc1Byb2pldG8uZnByZzs3MTM0"/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTIyOyIwOTozODo0MiAiOzE0OzI2ODM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sentence" type="String" array="False" size=""/>
+            <declare name="numberofitems" type="Integer" array="False" size=""/>
+            <declare name="splitOn" type="String" array="False" size=""/>
+            <assign variable="splitOn" expression="&quot;:&quot;"/>
+            <output expression="&quot;Qual o hor&#225;rio do seu voo?&quot;" newline="True"/>
+            <input variable="sentence"/>
+            <assign variable="numberofitems" expression="numberofinstances(sentence, splitOn)"/>
+            <declare name="slicedList" type="String" array="True" size="numberofitems"/>
+            <call expression="slice(sentence, splitOn, numberofitems, slicedList)"/>
+            <declare name="hour, minute" type="Integer" array="False" size=""/>
+            <assign variable="hour" expression="ToInteger(slicedList[0])"/>
+            <assign variable="minute" expression="ToInteger(slicedList[1])"/>
+        </body>
+    </function>
+    <function name="numberofinstances" type="Integer" variable="qty">
+        <parameters>
+            <parameter name="sentence" type="String" array="False"/>
+            <parameter name="item" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <declare name="qty" type="Integer" array="False" size=""/>
+            <assign variable="qty" expression="1"/>
+            <for variable="count" start="0" end="len(sentence)-1" direction="inc" step="1">
+                <if expression="Char(sentence, count) == item">
+                    <then>
+                        <assign variable="qty" expression="qty + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+    <function name="slice" type="None" variable="">
+        <parameters>
+            <parameter name="sentence" type="String" array="False"/>
+            <parameter name="sliceOn" type="String" array="False"/>
+            <parameter name="numberofitems" type="Integer" array="False"/>
+            <parameter name="slicedList" type="String" array="True"/>
+        </parameters>
+        <body>
+            <declare name="counter, count" type="Integer" array="False" size=""/>
+            <assign variable="counter" expression="0"/>
+            <while expression="counter != numberOfitems">
+                <assign variable="slicedList[counter]" expression="&quot;&quot;"/>
+                <for variable="count" start="0" end="len(sentence)-1" direction="inc" step="1">
+                    <if expression="Char(sentence, count) == sliceOn">
+                        <then>
+                            <assign variable="counter" expression="counter+1"/>
+                            <assign variable="slicedList[counter]" expression="&quot;&quot;"/>
+                        </then>
+                        <else>
+                            <assign variable="slicedList[counter]" expression="slicedList[counter] &amp; Char(sentence, count)"/>
+                        </else>
+                    </if>
+                </for>
+                <assign variable="counter" expression="counter+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

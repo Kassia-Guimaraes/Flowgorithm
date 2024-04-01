@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 05:01:43 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTA5OyIwNDo1ODoyNSAiOzI1MjY="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTA5OyIwNTowMTo0MyAiOzE7MjYyMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="index, total" type="Integer" array="False" size=""/>
+            <assign variable="index" expression="0"/>
+            <assign variable="total" expression="0"/>
+            <for variable="index" start="1" end="10" direction="inc" step="1">
+                <assign variable="total" expression="total + 2"/>
+                <assign variable="index" expression="index -1"/>
+                <output expression="&quot;O valor do index &#233;: &quot; &amp; index &amp; &quot; e o valor total &#233; &quot; &amp; total" newline="True"/>
+            </for>
+            <output expression="&quot;Fim do programa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

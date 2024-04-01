@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-25 04:47:29 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwMzo0Njo0NyAiOzI1MzI="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwNDo0NzoyOSAiOzU7MjY0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="1"/>
+            <assign variable="y" expression="2"/>
+            <assign variable="z" expression="3"/>
+            <assign variable="x" expression="y"/>
+            <assign variable="y" expression="z"/>
+            <output expression="&quot;X = &quot; &amp;  x &amp; &quot;; Y = &quot; &amp; y &amp; &quot;; Z = &quot; &amp; z" newline="True"/>
+            <assign variable="x" expression="y"/>
+            <assign variable="z" expression="x"/>
+            <output expression="&quot;X = &quot; &amp;  x &amp; &quot;; Y = &quot; &amp; y &amp; &quot;; Z = &quot; &amp; z" newline="True"/>
+            <assign variable="x" expression="z"/>
+            <assign variable="x" expression="y"/>
+            <output expression="&quot;X = &quot; &amp;  x &amp; &quot;; Y = &quot; &amp; y &amp; &quot;; Z = &quot; &amp; z" newline="True"/>
+            <assign variable="z" expression="y"/>
+            <assign variable="x" expression="y"/>
+            <output expression="&quot;X = &quot; &amp;  x &amp; &quot;; Y = &quot; &amp; y &amp; &quot;; Z = &quot; &amp; z" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

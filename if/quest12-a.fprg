@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-02 05:53:15 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTAyOyIwNToyMTowMiAiOzI1MDU="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTAyOyIwNTo1MzoxNSAiOzI7MjYyMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quantInicial, quantFinal" type="Real" array="False" size=""/>
+            <declare name="moedaOrigem" type="String" array="False" size=""/>
+            <output expression="&quot;Digite a moeda que pretende converter (EUR, YEN, DOL, LBR, SEK) &quot;" newline="True"/>
+            <input variable="moedaOrigem"/>
+            <output expression="&quot;Diga quanto deseja depositar: &quot;" newline="True"/>
+            <input variable="quantInicial"/>
+            <if expression="moedaOrigem == &quot;EUR&quot;">
+                <then>
+                    <assign variable="quantFinal" expression="(quantInicial) * (147.289/100)"/>
+                </then>
+                <else>
+                    <if expression="moedaOrigem == &quot;DOL&quot;">
+                        <then>
+                            <assign variable="quantFinal" expression="(quantInicial) * 1.06"/>
+                        </then>
+                        <else>
+                            <if expression="moedaOrigem == &quot;YEN&quot;">
+                                <then>
+                                    <assign variable="quantFinal" expression="(quantInicial) * (18.7630/100)"/>
+                                </then>
+                                <else>
+                                    <if expression="moedaOrigem == &quot;LBR&quot;">
+                                        <then>
+                                            <assign variable="quantFinal" expression="(quantInicial) * (1.84)"/>
+                                        </then>
+                                        <else>
+                                            <if expression="moedaOrigem == &quot;SEK&quot;">
+                                                <then>
+                                                    <assign variable="quantFinal" expression="(quantInicial) * (24.25/100)"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Moeda de origem inv&#225;lida.&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;A quantia inicial de &quot; &amp; quantInicial &amp; &quot; &quot; &amp; moedaOrigem &amp; &quot; &#233; equivalente &#224; &quot; &amp; quantFInal &amp; &quot; d&#243;lares canadienses&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

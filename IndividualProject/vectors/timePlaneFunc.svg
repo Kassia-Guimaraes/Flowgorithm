@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 3.5.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1500" height="2300">
+	<rect x="0" y="0" width="1500" height="2300" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,200 450,350"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,1450 450,2086"/>
+		<polygon fill="#404040" stroke="none" points="450,2100 463,2075 436,2075"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 300,100 A 50 50, 0, 0 0, 300 200 L 600,200 A 50 50, 0, 0 0, 600 100 Z"/>
+			<text x="450" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="450" dy="50" unicode-bidi="embed">timePlaneFunc</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 200,2100 A 50 50, 0, 0 0, 200 2200 L 700,2200 A 50 50, 0, 0 0, 700 2100 Z"/>
+			<text x="450" y="2115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="450" dy="50" unicode-bidi="embed">Return String timePlane</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,350 450,486"/>
+			<polygon fill="#404040" stroke="none" points="450,500 463,475 436,475"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,625 450,686"/>
+			<polygon fill="#404040" stroke="none" points="450,700 463,675 436,675"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,850 450,911"/>
+			<polygon fill="#404040" stroke="none" points="450,925 463,900 436,900"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,1025 450,1175"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,1175 450,1336"/>
+			<polygon fill="#404040" stroke="none" points="450,1350 463,1325 436,1325"/>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="450,350 575,350"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 575,275 L 575,425 L 1225,425 L 1225,275 Z"/>
+					<text x="900" y="290" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="900" dy="50" unicode-bidi="embed">Fun&#231;&#227;o com condicional para</tspan>
+						<tspan x="900" dy="50" unicode-bidi="embed"> declara&#231;&#227;o do hor&#225;rio do voo</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 250,500 L 250,625 L 650,625 L 650,500 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="250,525 650,525"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="275,500 275,625"/>
+				<text x="462" y="540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="462" dy="50" unicode-bidi="embed">String timePlane</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 175,700 L 100,850 L 725,850 L 800,700 Z"/>
+				<text x="450" y="715" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="450" dy="50" unicode-bidi="embed">Output &quot;Qual o hor&#225;rio do</tspan>
+					<tspan x="450" dy="50" unicode-bidi="embed"> seu voo? (ex: 13:40)&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 250,925 L 200,1025 L 650,1025 L 700,925 Z"/>
+				<text x="450" y="940" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="450" dy="50" unicode-bidi="embed">Input timePlane</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="450,1175 575,1175"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 575,1100 L 575,1250 L 1325,1250 L 1325,1100 Z"/>
+					<text x="950" y="1115" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="950" dy="50" unicode-bidi="embed">N&#250;mero m&#237;nimo de caracteres para</tspan>
+						<tspan x="950" dy="50" unicode-bidi="embed"> aceitar como hor&#225;rio do voo</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="725,1400 1000,1400 1000,1486"/>
+				<polygon fill="#404040" stroke="none" points="1000,1500 1013,1475 986,1475"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1000,1925 1000,2000 500,2000 500,1463"/>
+				<polygon fill="#404040" stroke="none" points="500,1450 486,1474 513,1474"/>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1000,1750 1000,1811"/>
+					<polygon fill="#404040" stroke="none" points="1000,1825 1013,1800 986,1800"/>
+					<g>
+						<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 725,1500 L 600,1750 L 1275,1750 L 1400,1500 Z"/>
+						<text x="1000" y="1515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1000" dy="50" unicode-bidi="embed">Output &quot;Hora inv&#225;lida, por</tspan>
+							<tspan x="1000" dy="50" unicode-bidi="embed"> favor digite novamente o</tspan>
+							<tspan x="1000" dy="50" unicode-bidi="embed"> hor&#225;rio de seu voo.</tspan>
+							<tspan x="1000" dy="50" unicode-bidi="embed"> (ex: 00:20)&quot;</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 800,1825 L 750,1925 L 1200,1925 L 1250,1825 Z"/>
+						<text x="1000" y="1840" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1000" dy="50" unicode-bidi="embed">Input timePlane</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 225,1350 L 175,1400 L 225,1450 L 675,1450 L 725,1400 L 675,1350 Z"/>
+					<text x="450" y="1365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="450" dy="50" unicode-bidi="embed">len(timePlane) != 5</tspan>
+					</text>
+				</g>
+				<text x="800" y="1315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="800" dy="50" unicode-bidi="embed">True</tspan>
+				</text>
+				<text x="362" y="1465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="362" dy="50" unicode-bidi="embed">False</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

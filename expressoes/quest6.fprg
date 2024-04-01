@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-02 03:14:20 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTAyOyIwMjo1MTozMiAiOzI1MDg="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTAyOyIwMzoxNDoyMCAiOzE7MjYxMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="standardDeviation, data1, data2, data3, data4, data5, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Diga qual o valor do primeiro dado: &quot;" newline="True"/>
+            <input variable="data1"/>
+            <output expression="&quot;Diga qual o valor do segundo dado: &quot;" newline="True"/>
+            <input variable="data2"/>
+            <output expression="&quot;Diga qual o valor do terceiro dado: &quot;" newline="True"/>
+            <input variable="data3"/>
+            <output expression="&quot;Diga qual o valor do quarto dado: &quot;" newline="True"/>
+            <input variable="data4"/>
+            <output expression="&quot;Diga qual o valor do quinto dado: &quot;" newline="True"/>
+            <input variable="data5"/>
+            <assign variable="media" expression="(data1+data2+data3+data4+data5)/5"/>
+            <assign variable="standardDeviation" expression="sqrt((1/4)*((data1-media)^2)+((data2-media)^2)+((data3-media)^2)+((data4-media)^2)+((data5-media)^2))"/>
+            <output expression="&quot;O desvio padr&#227;o dos dados &#233;: &quot; &amp; standardDeviation" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 3.5.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1500" height="3650">
+	<rect x="0" y="0" width="1500" height="3650" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,200 475,375"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,3375 475,3436"/>
+		<polygon fill="#404040" stroke="none" points="475,3450 488,3425 461,3425"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 350,100 A 50 50, 0, 0 0, 350 200 L 600,200 A 50 50, 0, 0 0, 600 100 Z"/>
+			<text x="475" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="475" dy="50" unicode-bidi="embed">infoPlanes</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 250,3450 A 50 50, 0, 0 0, 250 3550 L 700,3550 A 50 50, 0, 0 0, 700 3450 Z"/>
+			<text x="475" y="3465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="475" dy="50" unicode-bidi="embed">Return String infoFlight</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,375 475,536"/>
+			<polygon fill="#404040" stroke="none" points="475,550 488,525 461,525"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,675 475,736"/>
+			<polygon fill="#404040" stroke="none" points="475,750 488,725 461,725"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,925 475,986"/>
+			<polygon fill="#404040" stroke="none" points="475,1000 488,975 461,975"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,1150 475,1211"/>
+			<polygon fill="#404040" stroke="none" points="475,1225 488,1200 461,1200"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,1325 475,1386"/>
+			<polygon fill="#404040" stroke="none" points="475,1400 488,1375 461,1375"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,1550 475,1611"/>
+			<polygon fill="#404040" stroke="none" points="475,1625 488,1600 461,1600"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,1725 475,1786"/>
+			<polygon fill="#404040" stroke="none" points="475,1800 488,1775 461,1775"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,1950 475,2011"/>
+			<polygon fill="#404040" stroke="none" points="475,2025 488,2000 461,2000"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,2125 475,2186"/>
+			<polygon fill="#404040" stroke="none" points="475,2200 488,2175 461,2175"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,2350 475,2411"/>
+			<polygon fill="#404040" stroke="none" points="475,2425 488,2400 461,2400"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,2525 475,2586"/>
+			<polygon fill="#404040" stroke="none" points="475,2600 488,2575 461,2575"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,2725 475,2900"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="475,2900 475,3061"/>
+			<polygon fill="#404040" stroke="none" points="475,3075 488,3050 461,3050"/>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="475,375 600,375"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 600,275 L 600,475 L 1400,475 L 1400,275 Z"/>
+					<text x="1000" y="290" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1000" dy="50" unicode-bidi="embed">Informa&#231;&#245;es do voo do dia no</tspan>
+						<tspan x="1000" dy="50" unicode-bidi="embed"> aeroporto, n&#250;mero de aeronaves pr&#233;-</tspan>
+						<tspan x="1000" dy="50" unicode-bidi="embed">definida pelo funcion&#225;rio</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 275,550 L 275,675 L 675,675 L 675,550 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="275,575 675,575"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="300,550 300,675"/>
+				<text x="487" y="590" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="487" dy="50" unicode-bidi="embed">String hourPlane</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 225,750 L 225,925 L 725,925 L 725,750 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="225,775 725,775"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="250,750 250,925"/>
+				<text x="487" y="790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="487" dy="50" unicode-bidi="embed">String Array</tspan>
+					<tspan x="487" dy="50" unicode-bidi="embed"> informationPlane[4]</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 175,1000 L 100,1150 L 775,1150 L 850,1000 Z"/>
+				<text x="475" y="1015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="475" dy="50" unicode-bidi="embed">Output &quot;Qual a companhia</tspan>
+					<tspan x="475" dy="50" unicode-bidi="embed"> a&#233;rea do voo?&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 200,1225 L 150,1325 L 750,1325 L 800,1225 Z"/>
+				<text x="475" y="1240" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="475" dy="50" unicode-bidi="embed">Input informationPlane[0]</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 200,1400 L 125,1550 L 750,1550 L 825,1400 Z"/>
+				<text x="475" y="1415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="475" dy="50" unicode-bidi="embed">Output &quot;Qual o destino do</tspan>
+					<tspan x="475" dy="50" unicode-bidi="embed"> voo?&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 200,1625 L 150,1725 L 750,1725 L 800,1625 Z"/>
+				<text x="475" y="1640" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="475" dy="50" unicode-bidi="embed">Input informationPlane[1]</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 175,1800 L 100,1950 L 775,1950 L 850,1800 Z"/>
+				<text x="475" y="1815" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="475" dy="50" unicode-bidi="embed">Output &quot;Qual o n&#250;mero do</tspan>
+					<tspan x="475" dy="50" unicode-bidi="embed"> voo?&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 200,2025 L 150,2125 L 750,2125 L 800,2025 Z"/>
+				<text x="475" y="2040" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="475" dy="50" unicode-bidi="embed">Input informationPlane[2]</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 200,2200 L 125,2350 L 750,2350 L 825,2200 Z"/>
+				<text x="475" y="2215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="475" dy="50" unicode-bidi="embed">Output &quot;Qual o hor&#225;rio do</tspan>
+					<tspan x="475" dy="50" unicode-bidi="embed"> voo?&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 200,2425 L 150,2525 L 750,2525 L 800,2425 Z"/>
+				<text x="475" y="2440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="475" dy="50" unicode-bidi="embed">Input informationPlane[3]</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 275,2600 L 275,2725 L 675,2725 L 675,2600 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="275,2625 675,2625"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="300,2600 300,2725"/>
+				<text x="487" y="2640" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="487" dy="50" unicode-bidi="embed">String infoFlight</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="475,2900 600,2900"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 600,2800 L 600,3000 L 1400,3000 L 1400,2800 Z"/>
+					<text x="1000" y="2815" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1000" dy="50" unicode-bidi="embed">Declara&#231;&#227;o de vari&#225;vel com as</tspan>
+						<tspan x="1000" dy="50" unicode-bidi="embed"> inform&#231;&#245;es do voo, sendo o return da</tspan>
+						<tspan x="1000" dy="50" unicode-bidi="embed"> fun&#231;&#227;o</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 175,3075 L 175,3375 L 775,3375 L 775,3075 Z"/>
+				<text x="475" y="3090" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="475" dy="50" unicode-bidi="embed">infoFlight =</tspan>
+					<tspan x="475" dy="50" unicode-bidi="embed"> informationPlane[0] &amp;  &quot;, &quot; &amp;</tspan>
+					<tspan x="475" dy="50" unicode-bidi="embed"> informationPlane[1] &amp; &quot;, &quot; &amp;</tspan>
+					<tspan x="475" dy="50" unicode-bidi="embed"> informationPlane[2] &amp; &quot;, &quot; &amp;</tspan>
+					<tspan x="475" dy="50" unicode-bidi="embed"> informationPlane[3]</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

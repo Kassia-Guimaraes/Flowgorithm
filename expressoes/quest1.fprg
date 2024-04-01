@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-25 04:27:33 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwMjoxMTowOCAiOzI1MjA="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTA5LTI1OyIwNDoyNzozMyAiOzM7MjYzNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Real" array="False" size=""/>
+            <declare name="I, J, K" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="4.0"/>
+            <assign variable="B" expression="6.0"/>
+            <assign variable="I" expression="3"/>
+            <assign variable="C" expression="(A*B) - I"/>
+            <output expression="&quot;O valor de A*B - I  &quot; &amp; C" newline="True"/>
+            <assign variable="K" expression="(I/4) * 6"/>
+            <output expression="&quot;O valor de I/4 * 6 &#233; &quot; &amp; K" newline="True"/>
+            <assign variable="C" expression="(B / A) + 1.5"/>
+            <output expression="&quot;O valor de B / A + 1.5 &#233; &quot; &amp; C" newline="True"/>
+            <assign variable="K" expression="(B/A) + 4.7"/>
+            <output expression="&quot;O valor de (B/A + 4.7)  &#233; &quot; &amp; K" newline="True"/>
+            <assign variable="J" expression="A/(5 / I)"/>
+            <output expression="&quot;O valor de A/(5 / I)  &#233; &quot; &amp; J" newline="True"/>
+            <assign variable="K" expression="ABS(A - B) * 2 + I"/>
+            <output expression="&quot;O valor de ABS(A - B) * 2 + I &#233; &quot; &amp; K" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

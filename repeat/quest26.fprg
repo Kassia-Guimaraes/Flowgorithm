@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-16 04:48:19 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE2OyIwNDoxODozMiAiOzI1MTg="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTE2OyIwNDo0ODoxOSAiOzE7MjYzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="limit, fish" type="Real" array="False" size=""/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <comment text="x = n&#250;mero de peixes pegos"/>
+            <output expression="&quot;Qual o peso limite do dia, em quilograma? (ex: 12,9)&quot;" newline="True"/>
+            <input variable="limit"/>
+            <assign variable="fish" expression="0"/>
+            <assign variable="x" expression="1"/>
+            <while expression="fish &lt; limit">
+                <output expression="&quot;Qual o peso do seu &quot; &amp; x &amp; &quot;&#186; peixe?&quot;" newline="True"/>
+                <input variable="fish"/>
+                <assign variable="x" expression="x+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

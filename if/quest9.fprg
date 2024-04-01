@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kassi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-02 05:04:35 "/>
+        <attribute name="created" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTAyOyIwNDo0Mjo1MyAiOzI1MTM="/>
+        <attribute name="edited" value="a2Fzc2k7REVTS1RPUF9LUzsyMDIzLTEwLTAyOyIwNTowNDozNSAiOzE7MjYyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="custoFabrica, percentagemDistrib, percentagemImposto, custoFinal" type="Real" array="False" size=""/>
+            <input variable="custoFabrica"/>
+            <if expression="custoFabrica &lt;= 10000">
+                <then>
+                    <assign variable="percentagemDistrib" expression="custoFabrica * 0.08"/>
+                    <assign variable="percentagemImposto" expression="custoFabrica * 0.45"/>
+                    <assign variable="custoFinal" expression="custoFabrica + percentagemDistrib + percentagemImposto"/>
+                </then>
+                <else>
+                    <assign variable="percentagemDistrib" expression="custoFabrica * 0.06"/>
+                    <assign variable="percentagemImposto" expression="custoFabrica * 0.35"/>
+                    <assign variable="custoFinal" expression="custoFabrica + percentagemDistrib + percentagemImposto"/>
+                </else>
+            </if>
+            <output expression="&quot;O custo final do carro novo &#233;: &quot; &amp; custoFinal" newline="True"/>
+            <output expression="&quot;O valor da fabrica&#231;&#227;o foi: &quot; &amp; custoFabrica &amp; &quot;. A percentagem do distribuidor foi: &quot;&amp; percentagemDistrib &amp; &quot;. O valor do imposto foi de: &quot; &amp; percentagemImposto &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

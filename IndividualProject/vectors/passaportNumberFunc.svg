@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 3.5.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1775" height="2550">
+	<rect x="0" y="0" width="1775" height="2550" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,200 525,350"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,1550 525,2336"/>
+		<polygon fill="#404040" stroke="none" points="525,2350 538,2325 511,2325"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 300,100 A 50 50, 0, 0 0, 300 200 L 750,200 A 50 50, 0, 0 0, 750 100 Z"/>
+			<text x="525" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="525" dy="50" unicode-bidi="embed">passaportNumberFunc</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 200,2350 A 50 50, 0, 0 0, 200 2450 L 850,2450 A 50 50, 0, 0 0, 850 2350 Z"/>
+			<text x="525" y="2365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="525" dy="50" unicode-bidi="embed">Return String passaportNumber</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,350 525,486"/>
+			<polygon fill="#404040" stroke="none" points="525,500 538,475 511,475"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,625 525,686"/>
+			<polygon fill="#404040" stroke="none" points="525,700 538,675 511,675"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,950 525,1011"/>
+			<polygon fill="#404040" stroke="none" points="525,1025 538,1000 511,1000"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,1125 525,1275"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,1275 525,1436"/>
+			<polygon fill="#404040" stroke="none" points="525,1450 538,1425 511,1425"/>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="525,350 650,350"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 650,275 L 650,425 L 1450,425 L 1450,275 Z"/>
+					<text x="1050" y="290" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1050" dy="50" unicode-bidi="embed">Fun&#231;&#227;o com condicional para</tspan>
+						<tspan x="1050" dy="50" unicode-bidi="embed"> declara&#231;&#227;o do n&#250;mero do passaporte</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 250,500 L 250,625 L 800,625 L 800,500 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="250,525 800,525"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="275,500 275,625"/>
+				<text x="537" y="540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="537" dy="50" unicode-bidi="embed">String passaportNumber</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 225,700 L 100,950 L 825,950 L 950,700 Z"/>
+				<text x="525" y="715" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="525" dy="50" unicode-bidi="embed">Output &quot;Digite o n&#250;mero de</tspan>
+					<tspan x="525" dy="50" unicode-bidi="embed"> identifica&#231;&#227;o do seu</tspan>
+					<tspan x="525" dy="50" unicode-bidi="embed"> passaporte.</tspan>
+					<tspan x="525" dy="50" unicode-bidi="embed"> (ex: AB123456)&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 250,1025 L 200,1125 L 800,1125 L 850,1025 Z"/>
+				<text x="525" y="1040" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="525" dy="50" unicode-bidi="embed">Input passaportNumber</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="525,1275 650,1275"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 650,1200 L 650,1350 L 1450,1350 L 1450,1200 Z"/>
+					<text x="1050" y="1215" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1050" dy="50" unicode-bidi="embed">O n&#250;mero de identifica&#231;&#227;o do</tspan>
+						<tspan x="1050" dy="50" unicode-bidi="embed"> passaporte deve conter 8 caracteres</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,1500 1175,1500 1175,1586"/>
+				<polygon fill="#404040" stroke="none" points="1175,1600 1188,1575 1161,1575"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1175,2175 1175,2250 575,2250 575,1563"/>
+				<polygon fill="#404040" stroke="none" points="575,1550 561,1574 588,1574"/>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1175,2000 1175,2061"/>
+					<polygon fill="#404040" stroke="none" points="1175,2075 1188,2050 1161,2050"/>
+					<g>
+						<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 875,1600 L 675,2000 L 1475,2000 L 1675,1600 Z"/>
+						<text x="1175" y="1615" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1175" dy="50" unicode-bidi="embed">Output &quot;Valor inv&#225;lido, o</tspan>
+							<tspan x="1175" dy="50" unicode-bidi="embed"> n&#250;mero do passaporte</tspan>
+							<tspan x="1175" dy="50" unicode-bidi="embed"> deve conter 2 letras</tspan>
+							<tspan x="1175" dy="50" unicode-bidi="embed"> seguido de 6 n&#250;meros. Por</tspan>
+							<tspan x="1175" dy="50" unicode-bidi="embed"> favor insira o n&#250;mero de</tspan>
+							<tspan x="1175" dy="50" unicode-bidi="embed"> seu passaporte</tspan>
+							<tspan x="1175" dy="50" unicode-bidi="embed"> novamente&quot;</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#B0E0FF" stroke="#5080A0" stroke-width="3" stroke-dasharray="none" d="M 900,2075 L 850,2175 L 1450,2175 L 1500,2075 Z"/>
+						<text x="1175" y="2090" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1175" dy="50" unicode-bidi="embed">Input passaportNumber</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 225,1450 L 175,1500 L 225,1550 L 825,1550 L 875,1500 L 825,1450 Z"/>
+					<text x="525" y="1465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="525" dy="50" unicode-bidi="embed">len(passaportNumber) != 8</tspan>
+					</text>
+				</g>
+				<text x="950" y="1415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">True</tspan>
+				</text>
+				<text x="437" y="1565" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="437" dy="50" unicode-bidi="embed">False</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>
